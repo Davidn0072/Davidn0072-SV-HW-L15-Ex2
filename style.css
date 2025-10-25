@@ -1,0 +1,53 @@
+h1 {
+  color: #2E8B57;      /* צבע הטקסט - ירוק ים */
+  font-size: 36px;     /* גודל הגופן */
+  font-family: Arial, sans-serif; /* סוג הגופן */
+  text-align: center;  /* יישור מרכזי */
+  text-transform: uppercase; /* המרה לאותיות גדולות */
+  letter-spacing: 2px; /* רווח בין האותיות */
+  text-shadow: 2px 2px 4px #888888; /* צל לטקסט */
+}
+h2 {
+  color: #3CB371;              /* ירוק רענן יותר */
+  font-size: 28px;             /* קצת קטן יותר מ-h1 */
+  font-family: Arial, sans-serif; 
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;       /* טיפה פחות רווח בין אותיות */
+  text-shadow: 1px 1px 3px #999999; /* צל עדין יותר */
+}
+.container {
+      position: fixed;       /* מקבע את הקונטיינר ביחס לחלון */
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;    /* מרכז את התוכן פנימי אופקית */
+      width: max-content;    /* רוחב שיתאים לתוכן */
+      padding: 16px;         /* ריפוד קל מסביב */
+      box-sizing: border-box;
+    }
+
+    /* הריבוע הלבן עם מסגרת שחורה */
+    .box {
+      width: 300px;
+      height: 300px;
+      background: #fff;
+      border: 2px solid #000;
+      margin: 0 auto;        /* מרכז בתוך ה-container אם צריך */
+      display: block;
+    }
+
+    /* אזור הכפתורים מתחת לריבוע */
+    .buttons {
+      margin-top: 16px;
+    }
+
+    button {
+      margin: 0 8px;
+      padding: 10px 18px;
+      border: 1px solid #333;
+      background: #eaeaea;
+      border-radius: 6px;
+      cursor: pointer;
+      font: inherit;
+    }
